@@ -142,7 +142,7 @@ aside {
     }
 
     .content .content-subhead {
-        margin: 1.5em 0 0.5em 0;
+        margin: 1em 0 0.5em 0;
         border-bottom: 1px dashed #ddd;
         font-weight: 300;
         color: #888;
@@ -458,11 +458,11 @@ p {
   color: #fff;
 }
 
-.header button#kid-details {
+.header button.inverse {
   color: #fff;
 }
 
-.header button#kid-details:hover {
+.header button.inverse:hover {
   color: #333;
 }
 
@@ -497,3 +497,6 @@ h2 span {
   color: orange;
 }
 
+#home-comments {
+  margin: 0;
+}
